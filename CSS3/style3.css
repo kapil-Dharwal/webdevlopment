@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+}
+#container{
+    height: auto;
+    margin: auto;
+    width: 95%;
+    
+}
+#header{
+    height: 80px;
+    background-color: white;
+}
+#he{
+    font-size: 30px;
+    color: pink;
+}
+#nav{
+    height: 100px;
+    top: 0px;
+    position: sticky;
+    background-color: pink;
+}
+#nav ul{
+    list-style: none;
+    padding: 30px;
+}
+#nav ul li{
+    display: inline;
+}
+#nav ul li a{
+    text-decoration: none;
+    margin-left: 100px;
+    font-size: 25px;
+    color:black;
+}
+#nav ul li a:hover{
+    color:blueviolet
+}
+#img{
+    margin-top: 30px;
+    height: 650px;
+}
+#img1{
+    height: 500px;
+    width: 100%;
+}
+#sec{
+    height: 800px;
+    background-color:white;
+}
+#name{
+    font-size: 25px;
+}
+#id1{
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#fr1{
+    height: 390px;
+    width: 380px;
+    background-color: #F3F6FF;
+    padding: 30px;
+}
+#fr2{
+    height: 390px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+#con{
+    height: 390px;
+    width: 400px;
+}
+#row2{
+    height: 600px;
+    padding: 80px;
+    background-color: #F3F6FF;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+#immm{
+    height: 550px;
+    width: 550px;
+}
+#im{
+    height: 550px;
+    width: 550px;
+}
+#cont{
+    height: 410px;
+    width: 500px;
+    background-color: pink;
+    padding: 70px;
+}
+#sp{
+    font-size: 20px;
+    color: white;
+}
+#row3{
+    height: 550px;
+    
+    padding: 30px;
+}
+#hh{
+    font-size: 50px;
+}
+#demo{
+    height: 400px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+#demo1,#demo2,#demo3{
+    height: 390px;
+    width: 400px;
+   
+}
+#ima1,#ima2,#ima3{
+    box-shadow: 1px 5px 20px 1px ;
+   
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+    transition: 1s;
+}
+#ima1:hover{
+    transform: rotate(360deg);
+}
+#ima2:hover{
+    transform: rotate(360deg);
+}
+#ima3:hover{
+    transform: rotate(360deg);
+}
+@media screen and(min-width:540px) and (max-width:720px) {
+    *{
+        margin: 0px;
+    }
+    #container{
+        height: auto;
+        margin: auto;
+        width: 95%;
+        
+    }
+    #header{
+        height: 20px;
+        background-color:blue;
+    }
+    #he{
+        font-size: 10px;
+        color: pink;
+    }
+    #nav{
+        height: 100px;
+        top: 0px;
+        position: sticky;
+        background-color: pink;
+    }
+    #nav ul{
+        list-style: none;
+        padding: 5px;
+    }
+    #nav ul li{
+        display: inline;
+    }
+    #nav ul li a{
+        text-decoration: none;
+        margin-left: 13px;
+        font-size: 18px;
+        color: black;
+    }
+    #nav ul li a:hover{
+        color:blueviolet
+    }
+    #img{
+        margin-top: 30px;
+        height: 300px;
+        
+    }
+    #img1{
+        height: 300px;
+        width: 500px;
+    }
+    #sec{
+        height: 800px;
+        background-color:white;
+    }
+    #name{
+        font-size: 25px;
+    }
+    #id1{
+        height: 400px;
+        background-color: blue;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    #fr1{
+        height: 390px;
+        width: 380px;
+        background-color: #F3F6FF;
+        padding: 30px;
+    }
+    #fr2{
+        height: 390px;
+        width: 400px;
+        margin-bottom: 40px;
+    }
+    #con{
+        height: 390px;
+        width: 400px;
+    }
+    #row2{
+        height: 600px;
+        padding: 80px;
+        background-color: #F3F6FF;
+        display: flex;
+        /* justify-content: space-evenly; */
+    }
+    #immm{
+        height: 550px;
+        width: 550px;
+    }
+    #im{
+        height: 550px;
+        width: 550px;
+    }
+    #cont{
+        height: 410px;
+        width: 500px;
+        background-color: pink;
+        padding: 70px;
+    }
+    #sp{
+        font-size: 20px;
+        color: white;
+    }
+    #row3{
+        height: 550px;
+        
+        padding: 30px;
+    }
+    #hh{
+        font-size: 50px;
+    }
+    #demo{
+        height: 400px;
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #demo1,#demo2,#demo3{
+        height: 390px;
+        width: 400px;
+       
+    }
+    #ima1,#ima2,#ima3{
+        box-shadow: 1px 5px 20px 1px ;
+       
+        border-radius: 50%;
+        height: 300px;
+        width: 300px;
+        margin-left: 50px;
+        transition: 1s;
+    }
+    #ima1:hover{
+        transform: rotate(360deg);
+    }
+    #ima2:hover{
+        transform: rotate(360deg);
+    }
+    #ima3:hover{
+        transform: rotate(360deg);
+    }
+}
